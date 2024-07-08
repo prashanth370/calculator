@@ -54,3 +54,10 @@ button:active{
 .operator-btn:active{
     background-color: hsl(0, 84%, 70%);
 }
+/* Add media query for smaller screens */
+@media (max-width: 600px) {
+    #calculator {
+        font-size: 3rem;
+        padding: 10px;
+    }
+}
